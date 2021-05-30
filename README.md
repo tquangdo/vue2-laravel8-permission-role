@@ -36,7 +36,7 @@ DB_PORT=33060
 5. `php artisan make:seeder Permission<Role><User>TableSeeder`
 6. `php artisan migrate:refresh --seed`
 7. check by tinker: `php artisan tinker`
-7-1.
+- 7-1.
 ```sql
 >>> DB::select('select 1');
 => [
@@ -45,7 +45,7 @@ DB_PORT=33060
      },
    ] // -> OK!
 ```
-7-2.
+- 7-2.
 ```sql
 >>> DB::connection()->getConfig();
 => [
@@ -66,7 +66,7 @@ DB_PORT=33060
      "name" => "mysql",
    ]
 ```
-7-3.
+- 7-3.
 ```sql
 >>> DB::connection()->getPdo();
 => PDO {#1035
@@ -119,6 +119,7 @@ DB_PORT=33060
 ![dd](screenshot/dd.png)
 
 ## heroku (NO need `.env`)
+![Heroku](https://heroku-badge.herokuapp.com/?app=hrk-permission-role-dotq)
 ![heroku](screenshot/heroku.png)
 
 1. `heroku create hrk-permission-role-dotq`
