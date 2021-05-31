@@ -2,7 +2,7 @@
 
 ![badge1](https://img.shields.io/badge/vue--js-2-yellow)
 ![badge2](https://img.shields.io/badge/laravel-8-brightgreen)
-![badge4](https://img.shields.io/badge/docker-3.3.1-blue)
+![badge4](https://img.shields.io/badge/docker--desktop-3.3.1-blue)
 
 ## create project
 1. `composer create-project --prefer-dist laravel/laravel role_permission_vue`
